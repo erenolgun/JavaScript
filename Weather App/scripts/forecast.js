@@ -1,4 +1,4 @@
-const key = '4Lmx1plvx1Gje6K1DrrXbDpJAXmVbW0J';
+const key = 'GB04upUvErPDGwBt5ZtiZ6HfrXizUFOW';
 
 // get weather information
 const getWeather = async (id) => {
@@ -25,9 +25,3 @@ const getCity = async (city) => {
 
     return data[0];
 };
-
-// getCity('ankara').then(data => {
-//     return getWeather(data.Key);
-// }).then(data => {
-//     console.log(data);
-// }).catch(err => console.log(err));
