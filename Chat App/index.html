@@ -56,6 +56,28 @@
 
 </div>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-firestore.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyBGT4EdHent6vTy--Pp9yvMby_euVfi-vc",
+        authDomain: "chat-app-b3779.firebaseapp.com",
+        databaseURL: "https://chat-app-b3779.firebaseio.com",
+        projectId: "chat-app-b3779",
+        storageBucket: "chat-app-b3779.appspot.com",
+        messagingSenderId: "101209711540",
+        appId: "1:101209711540:web:f31471d20eab22defa08e1",
+        measurementId: "G-1YLJY8W45Z"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    </script>
+
     <script src="scripts/chat.js"></script>
     <script src="scripts/ui.js"></script>
     <script src="scripts/app.js"></script>
